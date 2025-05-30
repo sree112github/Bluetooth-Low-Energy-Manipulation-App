@@ -59,6 +59,7 @@ void dispose() {
                 Text(
                   provider.receivedData!.isEmpty
                       ? "Waiting for ESP32..."
+                  
                       : "Received: ${provider.receivedData}",
                   style: TextStyle(fontSize: 20),
                 ),
