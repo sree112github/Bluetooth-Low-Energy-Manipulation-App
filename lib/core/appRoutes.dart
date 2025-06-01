@@ -8,8 +8,8 @@ Route<dynamic>? onGenerateRoutes(RouteSettings route){
   switch(route.name){
     case '/':
       return MaterialPageRoute(builder: (context) => const BleScanPage());
-    case '/page2':
-      return MaterialPageRoute(builder: (context) => const page2());
+    // case '/page2':
+    //   return MaterialPageRoute(builder: (context) => const page2());
     default:
       return MaterialPageRoute(builder: (_)=> Scaffold(body: Center(child: Text("No route found ${route.name}"),),));
   }

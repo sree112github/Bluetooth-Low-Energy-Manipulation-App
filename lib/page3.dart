@@ -2,13 +2,11 @@ import 'package:flutter/material.dart';
 
 
 
-class StepTwoPage extends StatelessWidget {
+class StepThreePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Text('Enter your email', style: TextStyle(fontSize: 18)),
+      child: Text('Confirm details', style: TextStyle(fontSize: 18)),
     );
   }
 }
-
-
